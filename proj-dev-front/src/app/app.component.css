@@ -1,18 +1,60 @@
+.customtitre{
+
+        text-decoration: underline;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 300%;
+        text-align: center;
+        color: black;
+
+}
+
+header {
+    border: 2px solid black;
+}
+
+.header-logo {
+    width: 20%;
+
+}
+
+.customlogo{
+    width: 100%;
+
+}
+
 .custom1{
-    text-decoration: wavy;
-    text-align: center;
-    font-size: xx-large;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: coral;
+
+
+width: 100%;
+
 }
 
-.reglage{
-    text-align: center;
-    font-size: small;
-    width: 25%;
-    margin: 1em;
+.customf{
+
+display:flex;
+
+
 }
 
-.details{
+.custommenu{
+
     display:flex;
+    justify-content: center;
+    list-style-type:none;
+   
+    
+}
+
+.custommenu:hover{
+    color: indigo;
+
+    
+}
+
+.custommenu li{
+
+margin: 1em;
+
+
+
 }
