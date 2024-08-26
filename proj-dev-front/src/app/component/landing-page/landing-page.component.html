@@ -37,9 +37,15 @@
         <button (click)="updateShowCarac()">{{textCarac}}</button>
 
 
-
-
         <div *ngIf="showCarac">
+
+            <!-- <div *ngFor="let caracteristique of caracteristiques">
+                <h3 class="style">{{caracteristique.nom}}</h3>
+                <ul>
+                    <li *ngFor="let descriptif of caracteristique.descriptifs">{{descriptif}}</li>
+                </ul>
+            </div> -->
+
 
             <h3 class="style"> Moteur </h3>
             <ul>
